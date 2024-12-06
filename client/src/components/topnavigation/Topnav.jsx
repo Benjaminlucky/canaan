@@ -53,7 +53,7 @@ function Topnav() {
                   className={({ isActive }) =>
                     isActive
                       ? "bg-customBrown-100 w-full font-bold py-3 px-3 hover:text-customBrown-500 transition duration-500 ease-in-out"
-                      : "w-full font-semibold py-3 px-3 hover:text-customBrown-500 transition duration-500 ease-in-out"
+                      : "w-full font-semibold py-3 px-3 hover:text-customBrown-200 transition duration-500 ease-in-out"
                   }
                 >
                   {link.label}

@@ -15,6 +15,14 @@ export default {
       fontSize: {
         "2.5xl": "1.75rem", // Example: 1.75rem is between 2xl (1.5rem) and 3xl (1.875rem)
       },
+      screens: {
+        xs: "320px",
+        sm: "480px", // Custom breakpoint for smaller devices
+        md: "768px",
+        lg: "1024px",
+        xl: "1280px",
+        "2xl": "1536px",
+      },
     },
   },
   plugins: [],
