@@ -1,0 +1,3 @@
+[build]
+  publish = "dist"  # relative to the client directory
+  command = "npm run build"
