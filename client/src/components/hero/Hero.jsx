@@ -11,9 +11,9 @@ function Hero() {
       transition={{ duration: 0.8, ease: "easeOut" }} // Animation duration and easing
     >
       <div className="hero__wrapper w-full bg-[url('./assets/homeBG.jpg')] h-screen bg-cover bg-center">
-        <div className="hero__content text-center md:text-center lg:text-left flex flex-col md:gap-2 w-4/5 mx-auto py-10 md:py-16 lg:py-28">
+        <div className="hero__content text-center md:text-center lg:text-left flex flex-col md:gap-2 xs:w-5/6 w-4/5 mx-auto py-10 md:py-16 lg:py-28">
           <motion.h3
-            className="text-lg md:text-2xl lg:text-5xl font-semibold"
+            className="text-lg xs:text-sm md:text-2xl lg:text-5xl font-semibold"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.2, duration: 0.6 }}
@@ -21,7 +21,7 @@ function Hero() {
             Welcome to Canaan Dwellings
           </motion.h3>
           <motion.h2
-            className="text-xl md:text-2.5xl lg:text-5xl font-extrabold text-customBrown-500"
+            className="text-xl xs:text-sm md:text-2.5xl lg:text-5xl font-extrabold text-customBrown-500"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.4, duration: 0.6 }}
@@ -39,7 +39,7 @@ function Hero() {
             we're here to turn your vision into reality.{" "}
           </motion.p>
           <motion.div
-            className="button w-fit mx-auto  lg:mx-0 px-4 flex  py-4 mt-7 bg-customBrown-500 rounded-sm hover:bg-customBrown-200"
+            className="button w-fit mx-auto  lg:mx-0  px-4 flex  py-4 xs:mt-3 mt-7 bg-customBrown-500 rounded-sm hover:bg-customBrown-200"
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.8, duration: 0.6 }}
