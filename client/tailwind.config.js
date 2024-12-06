@@ -12,6 +12,9 @@ export default {
           900: "#301502", // Darkest
         },
       },
+      fontSize: {
+        "2.5xl": "1.75rem", // Example: 1.75rem is between 2xl (1.5rem) and 3xl (1.875rem)
+      },
     },
   },
   plugins: [],
