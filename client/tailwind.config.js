@@ -25,5 +25,13 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addUtilities }) {
+      addUtilities({
+        ".text-justify-inter-word": {
+          "text-justify": "inter-word",
+        },
+      });
+    },
+  ],
 };
