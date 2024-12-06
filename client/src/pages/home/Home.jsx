@@ -2,6 +2,7 @@ import React from "react";
 import Hero from "../../components/hero/Hero";
 import Abouthome from "../../components/aboutHome/Abouthome";
 import Homeservice from "../../components/homeServices/Homeservice";
+import InstituteHome from "../../components/instituteHome/InstituteHome";
 
 function Home() {
   return (
@@ -16,6 +17,9 @@ function Home() {
         </div>
         <div className="services__home">
           <Homeservice />
+        </div>
+        <div className="institute__home">
+          <InstituteHome />
         </div>
       </div>
     </main>
